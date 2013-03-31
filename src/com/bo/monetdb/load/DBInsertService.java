@@ -8,7 +8,7 @@
  * Further improvement: using java.sql.PreparedStatement
  * 
  */
-package com.bo.monetdb.benchmark;
+package com.bo.monetdb.load;
 
 import java.io.File;
 import java.io.FileInputStream;
