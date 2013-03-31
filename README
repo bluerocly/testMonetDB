@@ -1,0 +1,3 @@
+For test monet database, contain:
+1.load data that export from altibase
+2.compare altibase and monetdb performance

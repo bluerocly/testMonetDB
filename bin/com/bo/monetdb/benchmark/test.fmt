@@ -1,0 +1,11 @@
+table TAI_NEGRP_DEFINE
+{
+"GROUP_ID" bigint;
+"INT_ID" bigint;
+"OBJECT_CLASS" bigint;
+"VENDOR_ID" bigint;
+"TYPE" bigint;
+"USERLABEL" varchar (64);
+"PROVINCE_ID" bigint;
+}
+DATA_NLS_USE=GB231280
