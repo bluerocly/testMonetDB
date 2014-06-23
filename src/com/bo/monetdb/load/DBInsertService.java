@@ -19,7 +19,6 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.nio.charset.Charset;
 import java.sql.Connection;
-import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -37,8 +36,8 @@ public class DBInsertService {
 			conn = DriverManager.getConnection("jdbc:monetdb://localhost/demo", "voc", "voc");
 			conn.setAutoCommit(false);
 			stmt = conn.createStatement();
-//			DatabaseMetaData md = conn.getMetaData();// å¾—åˆ°æ•°æ®åº“çš„å…ƒæ•°æ®              
-//			System.out.println("supportBatchUpdate = " + md.supportsBatchUpdates());   //è·å–æ­¤æ•°æ®åº“æ˜¯å¦æ”¯æŒæ‰¹é‡æ›´æ–°ï¼Œå¹¶è¿”å›ç»“æœï¼Œæ”¯æŒåˆ™ä¸ºtrue 
+//			DatabaseMetaData md = conn.getMetaData();// µÃµ½Êı¾İ¿âµÄÔªÊı¾İ              
+//			System.out.println("supportBatchUpdate = " + md.supportsBatchUpdates());   //»ñÈ¡´ËÊı¾İ¿âÊÇ·ñÖ§³ÖÅúÁ¿¸üĞÂ£¬²¢·µ»Ø½á¹û£¬Ö§³ÖÔòÎªtrue 
 
 		}
 		if(prefixSql==null) {
